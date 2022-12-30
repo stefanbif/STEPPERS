@@ -1,8 +1,7 @@
 #include <MIDI.h>
 #include "pitches.h"
 
-//ARDUINO PINS
-//configured for CNC Shield V3
+// Pin Assignment
 #define stepPin_M1 2
 #define stepPin_M2 3
 #define stepPin_M3 4
@@ -17,7 +16,7 @@
 #define dirPin_M3 7
 #define dirPin_M4 13
 
-#define enPin 8 //Steppers are enabled when EN pin is pulled LOW
+#define enPin 8 //Active LOW
 
 #define TIMEOUT 10000 //Number of milliseconds for watchdog timer
 
